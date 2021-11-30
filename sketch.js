@@ -60,8 +60,15 @@ function draw() {
     if(fruitGroup.isTouching(knife)){
       fruitGroup.destroyEach();
       
-      knifeSwooshSound.play();
-      score=score+2;
+      //knifeSwooshSound.play();
+      //knifeSwooshSound.play;
+      //knifeSwooshSound();
+      //knifeSwooshSoundplay();
+      
+      //score = score;
+      //score = +2;
+      //score = 2
+      //score = score + 2;
     }
     else
     {
@@ -115,6 +122,7 @@ function fruits(){
     {
     fruit.x=600;
     fruit.velocityX=-(7+(score/4));
+    
     }
     else
     {
@@ -122,7 +130,10 @@ function fruits(){
       fruit.x=0;
       
   //Aumente a velocidade da fruta após a pontuação 4 ou 10
-      fruit.velocityX= (7+(score/4));
+      //fruit.velocityX= (7+(score/4));
+      //fruit.velocityY= (7+(score));
+      //fruit.velocity=-(7+(score/4));
+      //fruit.velocityX=(7);
       }
     }
     
